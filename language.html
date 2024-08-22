@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Settings</title>
+    <link rel="stylesheet" href="language.css">
+</head>
+<body>
+    <h1>Language Settings</h1>
+    <hr>
+    <p>Please select your preferred language settings for Blogging Platform</p>
+    <form id="language-form">
+        <div class="language-settings">
+            <div class="inputbox">
+                <span class="display-language">Choose your display language</span>
+                <select id="display-language" required>
+                    <option value="" disabled selected>Select your display language</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="zh">Chinese</option>
+                    <option value="ar">Arabic</option>
+                    <option value="ru">Russian</option>
+                    <option value="de">German</option>
+                    <option value="ja">Japanese</option>
+                    <option value="hi">Hindi</option>
+                </select>
+                
+                <span class="story-language">Choose your story language</span>
+                <select id="story-language" required>
+                    <option value="" disabled selected>Select your story language</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="zh">Chinese</option>
+                    <option value="ar">Arabic</option>
+                    <option value="ru">Russian</option>
+                    <option value="de">German</option>
+                    <option value="ja">Japanese</option>
+                    <option value="hi">Hindi</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="button">
+            <button type="submit" class="save-button">Save changes</button>
+        </div>
+    </form> 
+
+    <p>This changes the language of the stories that are recommended for you to read. It will </p>
+    <p>not change the language that Wattpad is displayed in.</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

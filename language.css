@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.language-settings {
+    margin-bottom: 20px;
+}
+
+.inputbox {
+    margin-bottom: 10px;
+}
+
+.inputbox span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.save-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save-button:hover {
+    background-color: darkorange;
+}

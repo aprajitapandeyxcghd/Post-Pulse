@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Editor</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="dropdown">
+                <button class="dropbtn">Browse &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
+           
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="navbar-right">
+            <div class="dropdown">
+                <button class="dropbtn">Write &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="create.html">Write a new blog</a>
+                    <a href="#">My Blogs</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Profile &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="loggedin.html">My Profile</a>
+                    <a href="inbox.html">Inbox</a>
+                    <a href="notifications.html">Notifications</a>
+                    <a href="library.html">Library</a>
+                    <a href="language.html">Language</a>
+                    <a href="#">Help</a>
+                    <a href="settings.html">Settings</a>
+                    <a href="index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="editor-container">
+        <h1 class="editor-title">Create Your Blog Post</h1>
+        <form id="blogForm"> <!-- Added form tag with id -->
+            <input type="text" id="title" placeholder="Enter blog title" class="blog-title-input" required> <!-- Added title input -->
+            <textarea id="editor" class="editor"></textarea>
+            <button type="submit" class="save-button">Save</button>
+        </form>
+        <div id="feedback"></div> <!-- Added feedback element -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Blogging Platform. All rights reserved.</p>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms of Service</a>
+    </footer>
+
+    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+    <script src="create.js"></script>
+</body>
+</html>

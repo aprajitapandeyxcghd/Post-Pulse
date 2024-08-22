@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="settings.css">
+    <title>Settings</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="dropdown">
+                <button class="dropbtn">Browse &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="#">Fiction</a>
+                    <a href="#">Non-Fiction</a>
+                    <a href="#">Recipes</a>
+                    <a href="#">Science-fiction</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Thriller</a>
+                    <a href="#">Poetry</a>
+                    <a href="#">Short story</a>
+                    <a href="#">Teen Fiction</a>
+                    <a href="#">Fantasy</a>
+                </div>
+            </div>
+          
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+        <div class="navbar-right">
+            <div class="dropdown">
+                <button class="dropbtn">Write &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="create.html">Write a new blog</a>
+                    <a href="#">My Blogs</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Profile &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="loggedin.html">My Profile</a>
+                    <a href="inbox.html">Inbox</a>
+                    <a href="notifications.html">Notifications</a>
+                    <a href="library.html">Library</a>
+                    <a href="language.html">Language</a>
+                    <a href="#">Help</a>
+                    <a href="settings.html">Settings</a>
+                    <a href="index.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Accounts</h1>
+    <p>Change your account information and privacy settings</p>
+    
+    <div class="form-container">
+        <form action="input-info">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" id="username" placeholder="username" required>
+
+            <label for="dob" class="form-label">Date of Birth</label>
+            <input type="text" id="dob" placeholder="dob" required>
+
+            <label for="email" class="form-label">Email</label>
+            <input type="text" id="email" placeholder="email" required>
+
+            <label for="phonenumber" class="form-label">Phone Number</label>
+            <input type="text" id="phonenumber" placeholder="phonenumber" required>
+        </form>
+        <button class="close">Close Account</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Blogging Platform. All rights reserved.</p>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms of Service</a>
+    </footer>
+
+</body>
+</html>
